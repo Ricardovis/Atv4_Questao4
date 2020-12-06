@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro metros
+
+		escreva("Me informe uma medida em metros para eu converter em centímetros e milímetros: ")
+		leia(metros)
+		limpa()
+
+		escreva( metros , " metros tem : \n", metros*100, " centímetros \n", metros*1000, " milímetros \n")
+		
+	}
+}
